@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
 
 # Include 960x540 boot animation in the zip
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bootanimation/540.zip:system/media/540.zip
+    vendor/pa/prebuilt/bootanimation/800x480.zip:system/media/800x480.zip
 
 # Alternate optional key maps
 PRODUCT_PACKAGES += \
