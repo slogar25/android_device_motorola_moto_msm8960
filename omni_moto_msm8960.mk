@@ -1,15 +1,15 @@
 # Inherit Omni CDMA telephony parts
 $(call inherit-product, vendor/omni/config/cdma.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Boot animation
-#TARGET_SCREEN_WIDTH := 720
-#TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
 
 # Release name
 PRODUCT_NAME := omni_moto_msm8960
