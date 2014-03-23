@@ -16,5 +16,11 @@
     "repository":  "CyanogenMod/android_kernel_motorola_msm8960-common",
     "target_path": "kernel/motorola/msm8960-common",
     "revision":    "cm-11.0"
-  }  
+  },
+  {
+    "remote":      "cm",
+    "repository":  "CyanogenMod/android_system_qcom",
+    "target_path": "system/qcom",
+    "revision":    "cm-11.0"
+  }
 ]
