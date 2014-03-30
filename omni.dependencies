@@ -12,10 +12,10 @@
     "revision":    "cm-11.0"
   },
   {
-    "remote":      "cm",
-    "repository":  "CyanogenMod/android_kernel_motorola_msm8960-common",
+    "remote":      "github",
+    "repository":  "slogar25/android_kernel_motorola_msm8960-common",
     "target_path": "kernel/motorola/msm8960-common",
-    "revision":    "cm-11.0"
+    "revision":    "omni-44"
   },
   {
     "remote":      "cm",
