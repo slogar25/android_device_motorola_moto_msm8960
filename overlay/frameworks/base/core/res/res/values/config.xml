@@ -47,10 +47,10 @@
          a keyboard is present. -->
     <bool name="config_showMenuShortcutsWhenKeyboardPresent">false</bool>
 
-    <integer name="config_keyboardBrightnessSettingDefault">255</integer>
+   <!-- <integer name="config_keyboardBrightnessSettingDefault">255</integer> -->
 
-    <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">false</bool>
+    <!-- Workaround for devices with broken keyboards 
+    <bool name="config_forceDisableHardwareKeyboard">false</bool> -->
 
     <!-- Enables swipe versus poly-finger touch disambiguation in the KeyboardView -->
     <bool name="config_swipeDisambiguation">true</bool>
